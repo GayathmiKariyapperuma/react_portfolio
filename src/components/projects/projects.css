@@ -45,7 +45,8 @@
 }
 
 .projects-container .projects .content.html {
-  background: rgba(255, 255, 255, 0.103) url(../props/html.png);
+  background: rgba(255, 255, 255, 0.103);
+  background-image: url("../props/html.png");
   background-position: center;
   background-size: 66px;
 }
@@ -86,7 +87,7 @@
   background-size: 66px;
 }
 .projects-container .projects .content.kotlin {
-  background: rgba(255, 255, 255, 0.103) url(../props/kotlin.png);
+  background: rgba(255, 255, 255, 0.103) url(../props/.kotlin.png);
   background-position: center;
   background-size: cover;
   background-size: 66px;

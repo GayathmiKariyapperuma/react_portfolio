@@ -1,10 +1,10 @@
 import "./about.css";
-import Qualifications from "../qualifications/qualifications";
+import Projects from "../projects/projects";
 
 function About() {
   return (
     <div id="about" className="container about-container">
-      <Qualifications />
+      <Projects />
     </div>
   );
 }

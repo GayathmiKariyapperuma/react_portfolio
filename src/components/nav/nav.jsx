@@ -1,7 +1,7 @@
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
-import { TiGroupOutline } from "react-icons/ti";
+import { AiOutlineDatabase } from "react-icons/ai";
 import { BiMessageRoundedDots } from "react-icons/bi";
 import { BsArrowDownCircle } from "react-icons/bs";
 
@@ -15,7 +15,7 @@ function Navbar() {
         <AiOutlineUser className="icon" />
       </a>
       <a href="#projects">
-        <TiGroupOutline className="icon" />
+        <AiOutlineDatabase className="icon" />
       </a>
       <a href="#contact">
         <BiMessageRoundedDots className="icon" />

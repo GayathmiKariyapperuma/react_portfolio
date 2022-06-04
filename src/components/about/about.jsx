@@ -1,10 +1,10 @@
 import "./about.css";
-import Projects from "../projects/projects";
+import Interests from "../interests/interests";
 
 function About() {
   return (
     <div id="about" className="container about-container">
-      <Projects />
+      <Interests />
     </div>
   );
 }

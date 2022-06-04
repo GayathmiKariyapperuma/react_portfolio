@@ -3,8 +3,8 @@ import Home from "./components/home/home";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 import Navbar from "./components/nav/nav";
-import Members from "./components/members/members";
 import Footer from "./components/footer/footer";
+import Projects from "./components/members/projects";
 
 function WebContent() {
   return (
@@ -15,7 +15,7 @@ function WebContent() {
       <Navbar />
       <Home />
       <About />
-      <Members />
+      <Projects />
       <Contact />
       <Footer />
     </>

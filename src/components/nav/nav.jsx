@@ -14,7 +14,7 @@ function Navbar() {
       <a href="#about">
         <AiOutlineUser className="icon" />
       </a>
-      <a href="#members">
+      <a href="#projects">
         <TiGroupOutline className="icon" />
       </a>
       <a href="#contact">

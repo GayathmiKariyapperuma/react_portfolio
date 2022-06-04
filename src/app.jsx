@@ -4,7 +4,7 @@ import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 import Navbar from "./components/nav/nav";
 import Footer from "./components/footer/footer";
-import Projects from "./components/members/projects";
+import Projects from "./components/projects/projects";
 
 function WebContent() {
   return (

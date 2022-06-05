@@ -7,7 +7,7 @@ function Header() {
         <p>
           I<span>'</span>m
         </p>
-        GSK
+        GS Kariyapperuma
       </h3>
       <h2>IT Undergraduate</h2>
     </div>

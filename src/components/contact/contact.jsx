@@ -1,7 +1,7 @@
 import "./contact.css";
-import { AiOutlineYoutube } from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { RiLinkedinBoxFill } from "react-icons/ri";
 
 function Contact() {
   return (
@@ -9,13 +9,13 @@ function Contact() {
       <h1>Contact Me</h1>
       <div className="contact-links">
         <a
-          href="https://www.youtube.com/channel/UCzoBz4EKrLOvm3L4DDNc_pg"
-          className="contact youtube"
+          href="https://www.facebook.com/gayathmisanudini.kariyapperuma.5/"
+          className="contact facebook"
           target={"blank"}
         >
-          <AiOutlineYoutube className="icon" />
+          <BsFacebook className="icon" />
           <h2>
-            youtube <span>Creative Ambition</span>
+            Facebook <span>Gayathmi Sanudini Kariyapperuma</span>
           </h2>
         </a>
 
@@ -26,14 +26,17 @@ function Contact() {
         >
           <AiOutlineWhatsApp className="icon" />
           <h2>
-            whatsapp <span>+233 20 918 2598</span>
+            WhatsApp <span>+94 75 271 4122</span>
           </h2>
         </a>
 
-        <a href="#" className="contact instagram">
-          <AiOutlineInstagram className="icon" />
+        <a
+          href="https://www.linkedin.com/in/gayathmi-sanudini-kariyapperuma/"
+          className="contact linkedin"
+        >
+          <RiLinkedinBoxFill className="icon" />
           <h2>
-            instagram <span>_Creative_Ambition_</span>
+            LinkedIn <span>Gayathmi Sanudini Kariyapperuma</span>
           </h2>
         </a>
       </div>
